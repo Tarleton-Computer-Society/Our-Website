@@ -39,7 +39,7 @@ function ProjectsPage(){
         <div className="mid-sec">
             <div className="left">
                 <div className="is-finished">
-                    Finished
+                <i class='bx bx-check-circle'></i> <label htmlFor="">Finished</label>
                 </div>
             </div>
             <div className="right">
@@ -65,17 +65,29 @@ function ProjectsPage(){
             <label htmlFor="">Stacks:</label>
 
             <div className="tools-img">
-            <a href="">
+            <a href="https://reactjs.org/" target='_blank'>
                 <img src="https://img.icons8.com/office/50/null/react.png" alt='React Logo'/>
             </a>
    
-            <a href="">
+            <a href="https://nodejs.org/en/" target='_blank'>
                 <img src="https://img.icons8.com/fluency/50/null/node-js.png" alt="Nodejs Logo"/>
             </a>
-            <a href="">
+            <a href="https://redux.js.org/" target='_blank'>
                 <img src="https://img.icons8.com/color/48/null/redux.png" alt="Redux Logo"/>
             </a>
  
+            </div>
+            </div>
+            
+            <div className="workedonthis">
+                <div className="left">
+                    
+       
+            <i class='bx bxs-group' ></i>
+            <label htmlFor="">10 People Worked on this</label>
+            </div>
+            <div className="right">
+                <a href="">View</a>
             </div>
             </div>
         </div>
