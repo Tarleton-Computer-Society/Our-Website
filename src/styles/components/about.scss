@@ -1,0 +1,105 @@
+$textcolor:#a662bb;
+.about{
+    padding: 7% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: white;
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        padding-bottom: 4%;
+        h2{
+            font-size: 20px;
+        
+            color:$textcolor;
+            text-transform: uppercase;
+            font-family: poppins; 
+            font-weight: 900;
+        }p{
+            color: #6c757d;
+            font-family: poppins;
+            width: 80%;
+            padding: 20px;
+        }
+    }
+}
+.agendas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0%;
+    width: 100%;
+    margin-top: -8rem;
+
+    
+    .agenda-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+ 
+        box-shadow: 0px 0px 10px #eee;
+        border-radius: 5px;
+        background: white;
+        h2{
+            font-size: 20px;
+            color:$textcolor;
+            text-transform: uppercase;
+            font-family: poppins; 
+            font-weight: 900;
+        }
+        
+        .agenda-items{
+            display: flex;
+            flex-direction: row;
+  
+            align-items: flex-start;
+            width: 100%;
+            .agenda-item{
+                padding: 30px 10px;
+                width: 50%;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+            
+
+                .icon1{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    background-color:#a662bb47;
+                    color: #a662bb;
+                    height:40px;
+                    width: 40px;
+                    font-size: 25px;
+                
+                    border-radius: 100%;
+       
+                }
+                .text-a{
+                    padding: 0 10px;
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                label{
+                    font-family: poppins;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: #333;
+                }p{
+                    font-family: poppins;
+                    font-weight: 400;
+                    font-size: 14px;
+                
+                    color: #6c757d;}
+                }
+            }
+        }
+    }
+}
