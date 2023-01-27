@@ -7,6 +7,7 @@ import {
   Route,
 } from "react-router-dom";
 import ProjectsPage from "./Projects";
+import TeamPage from "./Team";
 import ProfilePage from "../components/profilepage";
 import Projectsection from "../components/projectsection";
  
@@ -22,7 +23,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/teams",
-    element: <TeamsPage />,},
+    element: <TeamsPage />,
+  },
+  {
+    path: "/teams/:teamId",
+    element: <TeamPage />,
+  },
   {
     path: "/profilepage",
     element: <ProfilePage/>,},

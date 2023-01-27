@@ -4,58 +4,7 @@
     padding: 10px 20px;
 
 }
-.team-box{
-    padding:10px 50px;
-    .header{
-        display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin-bottom: 4%;
-    justify-content: center;
-.banner{
-    background: url(https://socialgood.hcs.harvard.edu/img/pattern.svg);
-    height: 81px;
-    position: absolute;
-    width: 100%;
-    opacity: 0.17;
-}
-h2{
-    font-size: 27px;
-    font-weight: 700;
-}
-    }
-    .team{
-        padding: 40px 0px;
-        
-        .person{
-            .image{
-                width: max-content;
-                padding: 5px;
-                background: rgb(107 106 106 / 25%);
-                border-radius: 17px;
-                box-shadow: 0px 0px 22px rgb(0 0 0 / 40%);
-                img{
-                    border-radius: 10px;
-                    height: 200px;
-                    width: 200px;
-                    object-fit: cover;
-                }
-            }
-            .info{
-                display: flex;
-                flex-direction: column;
-                padding: 10px 10px;
-                label{
-                    font-size: 17px;
-                    font-weight: 700;
-                }
-                span{
-                    font-size: 14px;
-                }
-            }
-        }
-    }
-}
+
 .projects-gn{
     .banner{
         img{

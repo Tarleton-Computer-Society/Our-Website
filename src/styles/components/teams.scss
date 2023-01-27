@@ -1,0 +1,119 @@
+.teams-page{
+    .banner{
+        img{
+            object-fit: cover;
+            height: 300px;
+
+            width: 100%;
+        }
+    }
+}
+.team-box{
+    margin-top: 4%;
+    padding:10px 20px;
+    .header{
+        display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 4%;
+    justify-content: center;
+.banner{
+    background: url(https://socialgood.hcs.harvard.edu/img/pattern.svg);
+    height: 81px;
+    position: absolute;
+    width: 100%;
+    opacity: 0.17;
+}
+h2{
+    font-size: 27px;
+    font-weight: 500;
+}
+    }
+    .teams{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .team{
+        margin-bottom: 2%;
+        margin-right: 2%;
+        padding: 16px 16px;
+        box-shadow: 0px 0px 22px rgb(152 147 147 / 23%);
+        display: flex;
+        flex-direction: row;
+        width: max-content;
+        border-radius: 8px;
+        .person{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .image{
+                width: max-content;
+                padding: 5px;
+                background: rgb(107 106 106 / 25%);
+                border-radius: 17px;
+    
+                img{
+                    border-radius: 10px;
+                    height: 120px;
+                    width: 120px;
+                    object-fit: cover;
+                }
+            }
+          
+           
+        } .info{
+            display: flex;
+            flex-direction: column;
+            padding-left: 35px;
+            .lilrole{
+                background: #f9d7ff;
+    padding: 8px;
+    width: max-content;
+    font-size: 11px;
+    border-radius: 8px;
+    color: #8952bb;
+            }
+            .mainstuff{
+                display: flex;
+                flex-direction: column;
+            .headname{
+                small{
+                    margin-left: 10px;
+                }
+            }
+            label{
+                font-size: 26px;
+                font-weight: 700;
+            }
+            span{
+                font-size: 14px;
+            }    }
+            .skillsset{
+                padding-top: 10px;
+                display: flex;
+                flex-direction: row;
+                span{
+                    margin-right: 3px;
+                    padding: 4px 8px;
+                    font-size: 10px;
+                    background: #caedff;
+                    border-radius: 10px 10px 1px 10px;
+                    color: #2196f3;
+                }
+            }
+            .viewmember{
+                border-radius: 4px;
+                margin-top: 10px;
+                border-style: solid;
+                border-width: 1px;
+                text-align: center;
+                padding: 4px 7px;
+                width: 70%;
+                }
+         
+
+        }
+    
+    }
+}
