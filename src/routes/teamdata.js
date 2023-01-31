@@ -49,6 +49,17 @@ const teamdata =[
         ],
         'image':mason
 
+    },
+    {
+        name:'Domanic Devivo',
+        title:'Engineer',
+        role:'Member - ( Product / Project Overview Team )',
+        'skills':[
+            'Frontend Dev',
+            'Backend Dev',
+            'Hardware Engineering'
+        ],
+        'image':devivo
     }
 ]
 
