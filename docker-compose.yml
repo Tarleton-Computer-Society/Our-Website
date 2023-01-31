@@ -6,5 +6,4 @@ services:
     image: docker-react-i
     build: 
       context: .
-    ports:
-      - 80:80
+   
