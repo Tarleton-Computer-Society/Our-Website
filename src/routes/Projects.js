@@ -1,11 +1,6 @@
 import React from "react";
 import { NavComponent } from "../components";
-import Teddy from '../assets/images/Teddy.jpg';
-import Image from '../assets/images/images.jpg';
-import Image1 from '../assets/images/2.jpg';
-import Heuvera from '../assets/images/Heuvera.png';
-import Rubi from '../assets/images/Rubi.jpg';
-import Swifttra from '../assets/images/swifttra.png';
+ 
 import bannerimg from '../assets/images/projects-banner.jpeg';
 import afterhourslogo from '../assets/images/afterhours.png';
 function ProjectsPage(){
