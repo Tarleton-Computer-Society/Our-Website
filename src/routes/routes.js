@@ -8,8 +8,6 @@ import {
 } from "react-router-dom";
 import ProjectsPage from "./Projects";
 import TeamPage from "./Team";
-import ProfilePage from "../components/profilepage";
-import Projectsection from "../components/projectsection";
  
 
 const router = createBrowserRouter([
@@ -29,13 +27,7 @@ const router = createBrowserRouter([
     path: "/teams/:teamId",
     element: <TeamPage />,
   },
-  {
-    path: "/profilepage",
-    element: <ProfilePage/>,},
-  {
-    path: "/projectsection",
-    element: <Projectsection/>,}
-      
+ 
 ]);
 function Routes(){
 return (
