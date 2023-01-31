@@ -1,5 +1,5 @@
 /node_modules
 
-/.docker-composer.yml
-/.Dockerfile
+/.docker-compose.yml
+/Dockerfile
 /.dockerignore
