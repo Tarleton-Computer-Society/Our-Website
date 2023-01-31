@@ -1,7 +1,7 @@
-from node:17-alphine as builder
+from node:17-alpine as builder
 WORKDIR /app
 copy package.json .
-copy package-lock.kson .
+copy package-lock.json .
 RUN npm install
 COPY . .
 RUN npm build
