@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: tarleton-computer-society-website
+    image: docker-react-i
+    build: 
+      context: .
+   
