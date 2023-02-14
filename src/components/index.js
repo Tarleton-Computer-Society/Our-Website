@@ -1,4 +1,4 @@
 import React from "react";
 import NavComponent from "./NavComponent";
-
-export { NavComponent}
+import Footer from "./Footer";
+export { NavComponent,Footer}

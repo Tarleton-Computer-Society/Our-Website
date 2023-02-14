@@ -18,6 +18,7 @@
         background: linear-gradient(45deg, #eff1f8, transparent);
         display: flex;
         flex-direction: column;
+        padding-bottom: 10%;
         .header{
             h1{
                 font-size: 30px;
@@ -26,6 +27,9 @@
         }
         .projects-list{
             margin-top: 2%;
+            .sp{
+                width: 500px !important;
+            }
             .indv-project{
                 background-color: white;
                 width: max-content;
@@ -42,6 +46,17 @@
                         img{
                             height: 70px;
                             width: 70px;
+                        }
+                        .plogo{
+                            height: 70px;
+    width: 70px;
+    object-fit: contain;
+    border-color: rgb(171 171 171 / 25%);
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 55px rgb(107 106 106 / 25%);
                         }
                
                         

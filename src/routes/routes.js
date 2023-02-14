@@ -7,7 +7,9 @@ import {
   Route,
 } from "react-router-dom";
 import ProjectsPage from "./Projects";
+import StudentProjectsPage from "./StudentProjects";
 import TeamPage from "./Team";
+import { Footer } from "../components";
  
 
 const router = createBrowserRouter([
@@ -20,9 +22,14 @@ const router = createBrowserRouter([
     element: <ProjectsPage />,
   },
   {
+    path: "/projects/team",
+    element: <StudentProjectsPage />,
+  },
+  {
     path: "/teams",
     element: <TeamsPage />,
   },
+ 
   {
     path: "/teams/:teamId",
     element: <TeamPage />,
@@ -31,8 +38,12 @@ const router = createBrowserRouter([
 ]);
 function Routes(){
 return (
- 
+        <>
+
       <RouterProvider router={router} />
+      <Footer/>
+      </>
+
  
 
 )

@@ -5,10 +5,32 @@ import juliana from '../assets/images/juliana.jpeg'
 import jayce from '../assets/images/jayce.webp'
 import devivo from '../assets/images/devivo.jpeg';
 import mason from '../assets/images/mason.jpeg';
-
+import teddy from '../assets/images/teddy.png'
 const teamdata =[
+    {
+        'name':'Teddy Oweh',
+        'title':'Software Engineer (ML)',
+        'role':'President - ( Development Lead )',
+        'skills':[
+            'Backend Dev',
+            'Machine Learning',
+            'Cloud Engineering'
+        ],
+        'image':teddy
 
+    },
+    {
+        'name':'Juliana Rodriguez',
+        'title':'Software Engineer',
+        'role':'Vice President - ( UI Design Lead )',
+        'skills':[
+            'Frontend Dev',
+            'Product/UI Design',
+ 
+        ],
+        'image':juliana
 
+    },
     {
         'name':'Jayce K. Thedford',
         'title':'Engineer',
